@@ -1,0 +1,92 @@
+/* başlık ve gövde kısmı */
+body {
+    background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+/* gövde */
+.search-box {
+    background-color: #f0f0f0;
+    display: inline-block;
+    /* Elementleri yan yana dizmek, ama yine de her birine boyut ve iç boşluk verebilmek istediğinde */
+    margin-bottom: 5px 20px;
+    padding-left: 500px;
+    padding-right: 500px;
+    }
+
+/* inputlar */
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    margin: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    /* tüm elementlerin yan yana dizilmesii sağlar */
+    justify-content: center;
+    /* ortalar */
+    gap: 10px;
+    /* child kutular arasında boşluk bırakır */
+    margin-top: 20px;
+    /* elementin üstünde dış boşluk bırakır */
+}
+
+.box {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    /* metinleri ortalar  */
+    font-size: 14px;
+    box-sizing: border-box;
+    /* elementin genişliğinin ve yüksekliğinin nasıl hesaplanacağını belirleyen / width her şeyi kapsar, padding ve border içeride kalır. */
+    width: 475px;
+    height: 150px;
+ 
+}
+.box1 {
+    background-color: #800080;
+
+}
+
+.box2 {
+    background-color: #9932CC;
+}
+
+.box3 {
+    background-color: #BA55D3;
+}
+.box a {
+    color: #ffffff;
+    text-decoration: underline;
+    /* bir metnin altını çizmek için kullanılır */
+    display: block;
+    margin: 5px 0;
+}
+.email-input {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: calc(100% - 12px);
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+.subscribe-btn {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 12px;
+    color: gray;
+}
